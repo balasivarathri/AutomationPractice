@@ -13,7 +13,7 @@ public class LoginTest extends TestBase{
 	public void setUp(String sBrowser) {
 		//step1 : InitializeBrowser
 		initializeDriver(sBrowser);
-		
+		System.out.println("bala");
 		//enter URL
 		enterURL(automationURL);
 	}
