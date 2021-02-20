@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="firefoxTest">
+  <parameter name = "sBrowser"  value = "firefox"/>
+    <classes>
+      <class name="com.automationpractice.testcaes.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="chromeTest">
+  <parameter name = "sBrowser"  value = "chrome"/>
+    <classes>
+      <class name="com.automationpractice.testcaes.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
